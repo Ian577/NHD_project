@@ -1,7 +1,84 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="NHD.css">
-<title>themunichagreement<title>
+<style>
+    header {
+        padding: 50px;
+        text-align: center;
+        background-color: #bdffe8;
+        color: black;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 20px;
+        text-decoration: none;
+    }
+
+    nav a.right {
+        float: right;
+    }
+
+    nav a:hover {
+        background-color: #aaaaaa;
+        color: black;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    rp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        flex: 30%;
+        background-color: #cccccc;
+        padding: 20px;
+        overflow: auto;
+    }
+
+    main {
+        flex: 70%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        overflow: auto;
+    }
+
+    @media screen and (max-width: 700px) {
+        rp {
+        flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        nav a {
+            float: none;
+            width: 100%;
+        }
+    }
+
+    body {
+        background-color: #f1f1f1;
+    }
+</style>
 </head>
 
 <header>
