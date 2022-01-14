@@ -5,6 +5,17 @@
     color: black; /* black text color */
 }
 
+.paragraph {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    background: #f1f1f1f1;
+}
+
+.break {
+    padding-top: 5%;
+}
+
 .header h1 { /* increases size of header */
     font-size: 55px;
 }
