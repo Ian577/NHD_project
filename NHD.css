@@ -23,7 +23,7 @@
     display: block; /* for responsive reasons */
     color: white; /* white text color */
     text-align: center; /* canter the text */
-    padding: 16px 20px; /* adds padding */
+    padding: 18px 22px; /* adds padding */
     text-decoration: none; /* removes underline */
 }
 
@@ -53,7 +53,7 @@
 
 .side p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .main { /* main cloumn */
@@ -64,7 +64,7 @@
 
 .main p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 700px) {
