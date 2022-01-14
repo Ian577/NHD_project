@@ -16,6 +16,33 @@ body {
 <div class="header">
 <h1>The Munich Agreement</h1>
 <div class="h2">
+<section>
+<center>
+    <img class="myslides" src="tma1.jpeg" style="width: 30%;">
+    <img class="myslides" src="tma2.jpg" style="width: 30%;">
+    <img class="myslides" src="tma3.jpg" style="width: 30%;">
+    <img class="myslides" src="tma4.jpg" style="width: 30%;">
+</center>
+</section>
+
+<script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("myslides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+</script>
+    
 <h2>"The symbol of failed diplomacy"</h2>
 </div>
 </div>
