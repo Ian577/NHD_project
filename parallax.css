@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+     font-size: 7rem;
+     color: white;
+     text-shadow: 0 0 7px black;;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background {
+    transform: translateZ(-10px ) scale(2); 
+}
+
+.background,
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+section {
+    font-size: 2rem;
+    padding: 10rem;
+    background-color: #f1f1f1;
+    color: black;
+
+}
+
+.navbar { /* style the top of the navigation bar */
+    overflow: auto; /* hide overflow */
+    background-color: #333; /* dark background color */
+}
+
+.navbar a {
+    float: left; /* make sure the links stay side-by-side */
+    display: block; /* for responsive reasons */
+    color: white; /* white text color */
+    text-align: center; /* canter the text */
+    padding: 16px 20px; /* adds padding */
+    text-decoration: none; /* removes underline */
+}
+
+.navbar a.right { /* right aligned link */
+    float: right; /* float links to the right */
+}
+
+.navbar a:hover { /* change color hen mouse hovers over */
+    background-color: #aaaaaa; /* grey background color */
+    color: black; /* black text color */
+}
+
+.h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    background: #f1f1f1f1;
+}
